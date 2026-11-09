@@ -1,0 +1,10 @@
+openai
+chromadb
+pytest
+requests
+pytest-html
+gradio
+fastapi
+uvicorn
+jieba
+python-dotenv

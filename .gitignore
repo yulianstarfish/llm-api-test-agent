@@ -1,0 +1,23 @@
+# 密钥（绝不提交）
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 测试与 IDE 缓存
+.pytest_cache/
+.idea/
+
+# ChromaDB 向量库
+chroma_db/
+
+# 生成产物（保留目录，忽略内容）
+generated_tests/*.json
+generated_tests/*.html
+generated_tests/*.py
+!generated_tests/.gitkeep
+
+# 模型权重与大数据文件（体积大，README 说明自备）
+*.pt
